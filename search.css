@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*Just the background stuff */
+
+
+/*My hum... body.. yeah.. */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* The card */
+.card {
+  position: relative;
+  height: 450px;
+  width: 900px;
+  margin: 200px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Image on the left side */
+.thumbnail {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 530px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+
+}
+
+/*object-fit: cover; */
+/*object-position: center; */
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Right side of the card */
+.right {
+  margin-left: 590px;
+  margin-right: 20px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 40px;
+  color: #4B4B4B;
+}
+
+.author {
+  background-color: #9ECAFF;
+  height: 30px;
+  width: 110px;
+  border-radius: 20px;
+}
+
+.author > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.user {
+  padding-top: 6px;
+  margin-right: 6px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.separator {
+  margin-top: 10px;
+  border: 1px solid #C3C3C3;
+}
+.separator2 {
+top : 110px;
+  border: 1px solid #C3C3C3;
+}
+
+.Desc {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 14 px;
+  line-height: 150%;
+  color: #4B4B4B;
+}
+.Price {
+  position: absolute;
+  text-align: Right;
+  padding-top: 20px;
+  padding-right: 100px;
+  font-size: 50 px;
+  line-height: 150%;
+  color:red;
+  bottom: 15px;
+  right: 20px;
+}
+
+.info {
+
+    list-style-type: none;
+}
+
+/* DATE of release */
+.Day {
+  position: absolute;
+  left: 35px;
+  bottom: 15px;
+  font-size: 6rem;
+  color: #C3C3C3;
+}
+
+.Month {
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+  left: 50px;
+  font-size: 2rem;
+  margin-top:70px;
+  color: #C3C3C3;
+}
